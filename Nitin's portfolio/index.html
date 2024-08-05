@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitin - Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(133, 133, 229);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(153, 153, 226);
+            height: 1.2px;
+            margin: 5px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 48px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(61, 61, 119);
+            color: white;
+            border: 2px solid white;
+            font-size: 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-grey {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 66px 0;
+            display: flex;
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        footer {
+            background-color: rgb(57, 57, 104);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+
+        .footer-rights>a {
+            color: grey;
+        }
+
+        .footer-third a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-third a:hover {
+            color: rgb(133, 133, 229);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nitin's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="#projects">Certificates</a></li>
+                    <li><a href="#secondSection">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Nitin Chauhan</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://app.luminpdf.com/viewer/66b11781603b707b1ec37361"><button class="btn">Download
+                            Resume</button></a>
+                    <a href="https://github.com/Ctnitin"><button class="btn">visit
+                            gitHub</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-grey">What i have done so far</span>
+            <h1>Projects</h1>
+
+            <div class="box" id="projects">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Travel App Website
+                        <div>July 2023</div>
+                    </div>
+                    <div class="vertical-desc">
+                        while learning about MERN this website is created
+                        <span>This website is created using MERN technology here you can book your tickets, Hotels,
+                            Vehicles,etc.
+                        </span>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Animal-Aid wesite
+                        <div>July 2022</div>
+                    </div>
+                    <div class="vertical-desc">
+                        This is is created for the welfare of the animal where mutliple NGOs from different part of
+                        Country has been registed where they came to help the domestic as well as the wild animal
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Image re-Captcha
+                        <div>Oct 2022</div>
+                    </div>
+                    <div class="vertical-desc">
+                        this is project done by using python tkinter
+                        <span>
+                            this helps in the verifiaction of a person on a site.
+                            with the help of this you can check whether a person is using or an AI
+                        </span>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        A Number Guesser game
+                    </div>
+                    <div class="vertical-desc">
+                        A funny number guesser game where you will get a number to guess with following hints given by
+                        the computer
+                        you have to correctly guess the number and you will also get some motivational quote over there
+                        to maintain the
+                        warmth of the game.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Restaurant Website
+                    </div>
+                    <div class="vertical-desc">
+                        <div>food booking site</div>
+                        <span>you can also make reservations
+                            it is no different than the other stes its is just a similar to them where you can book your
+                            table before
+                            reaching to restaurant and you can also check the menu from site only and cheif speciality
+                            and dish of the
+                            day is also visible to customer on site
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-grey">What i have done so far</span>
+            <h1>Certifications & Certificates</h1>
+
+            <div class="box">
+                <div class="vertical" id="certificates">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Apna College Sigma Batch
+                        <div>from ApnaCollege Aug 2024</ApnaCollege>
+                            </mongoDB>
+                        </div>
+                    </div>
+                    <div class="vertical-desc">
+                        This Certification course available on Apna College its Sigma batch where you learn DSA with
+                        Java as well as MERN Technology.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        The complete Web Development Bootcamp from Udemy
+                        <div>Feb 2024</div>
+                    </div>
+                    <div class="vertical-desc">
+                        This is cousre teaches about MERN Technology and Makes you good web developer this course
+                        focuses on HTML,CSS,JavaScript,React and Node.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Build Real life Project using HTML and CSS By E-Box
+                        <div>Aug 2023</div>
+                    </div>
+                    <div class="vertical-desc">
+                        <span>
+                            This is a basic course did in Summer Training cousre done in june and july completed in
+                            August.
+                            This cousre basic focus on HTML and CSS
+                        </span>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Complete Python Bootcamp by Udemy Feb 2023
+                    </div>
+                    <div class="vertical-desc">
+                        This is a Udemy course focuses on python course and help us in making projects in python and
+                        teaches basics about Python.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Java programming Masterclass by Udemy Sep 2022
+                    </div>
+                    <div class="vertical-desc">
+                        <div></div>
+                        <span> this Udemy course teaches you about Java programming language and helps you to learn DSA
+
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nitin's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>projects</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <a href="https://www.linkedin.com/in/nitin-chauhan97">
+                        <li>linkedIn</li>
+                    </a>
+                    <a href="https://github.com/Ctnitin">
+                        <li>github</li>
+                    </a>
+                    <a href="https://leetcode.com/u/Nitin97/">leetcode</li></a>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Instagram</li>
+                    <li>facebook</li>
+                    <li>Twitter</li>
+                    <li>E-Mail</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; <a href="https://app.luminpdf.com/viewer/666fa7937a07c1496a2dc800">www.nitinSites.com</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
